@@ -1,0 +1,8 @@
+Tue Nov  8 12:50:53 CET 2022
+
+git add . // add to all changes in directory
+
+make a decision that git commits haven to be written in presens or past tense imperative
+
+
+ 
