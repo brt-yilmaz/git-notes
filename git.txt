@@ -4,5 +4,9 @@ git add . // add to all changes in directory
 
 make a decision that git commits haven to be written in presens or past tense imperative
 
+Commits can be written in vim
 
+git log --oneline // to see commits in one line
+
+git commit --amend // to modify last commit 
  
