@@ -35,3 +35,15 @@ git diff --staged <filename> // to see changes for only specific file
 git diff branch1 branch2 
 git diff commit1 commit2
 
+If you can't commit and switch branch , changes come with you or git wont let you
+
+git stash // stash all uncommitted changes(staged or unstaged) 
+git stash pop // remove the stashed changes and re-apply them to your working copy
+git stash  apply // stashed changes and re-apply them to your working copy 
+git stash list // to see multiple stash
+git stash  apply stash@{2}// to apply specific stash
+git stash  drop stash@{2}// to drop  specific stash
+git stash  clear // to clear all stash 
+
+ 
+
