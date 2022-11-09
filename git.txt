@@ -22,6 +22,16 @@ git branch -d // to delete you have to be out of the branch
 
 git branch -m <newBranhcName> // you have to be in same branch
 
-git merge <branchname> // head must be in the brach which you want to continue with it  
+git merge <branchname> // head must be in the brach which you want to continue with it 
 
+git diff // Compares staging area and working directory // a is the info that staging area last new about ,b is the working directory 
+
+git diff HEAD //  list all changes in the working tree since your last commit
+
+git diff --staged // list changes  between staged and head // --cached is the same
+
+git diff HEAD <filename> // to see changes for only specific file
+git diff --staged <filename> // to see changes for only specific file
+git diff branch1 branch2 
+git diff commit1 commit2
 
