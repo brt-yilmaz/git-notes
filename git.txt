@@ -9,4 +9,19 @@ Commits can be written in vim
 git log --oneline // to see commits in one line
 
 git commit --amend // to modify last commit 
+
+.gitignore // must be defined // for directory use slash at the end of the path
  
+git commit -a -m "message" // to add in a single line
+
+git switch -c <branchname> // to create and switch branch
+
+before switching branch must be committed Otherwise, a file or folder that is not in any branch comes with it.
+
+git branch -d // to delete you have to be out of the branch
+
+git branch -m <newBranhcName> // you have to be in same branch
+
+git merge <branchname> // head must be in the brach which you want to continue with it  
+
+
