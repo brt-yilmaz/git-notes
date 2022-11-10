@@ -45,5 +45,14 @@ git stash  apply stash@{2}// to apply specific stash
 git stash  drop stash@{2}// to drop  specific stash
 git stash  clear // to clear all stash 
 
+git checkout <commit-hash> // detached head // git switch <branchname> to reattached
+this command is useful if you want to make new branch in older commit
  
+git checkout HEAD~1 // to see previous commit, that cause to detached head
+git switch - // to go last step before detached head
+git checkout HEAD <filename> // to undo all changes since last commit in working directory // git checkout -- <filename> short way
+
+  
+ 
+
 
