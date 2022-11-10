@@ -35,10 +35,6 @@ git diff --staged <filename> // to see changes for only specific file
 git diff branch1 branch2 
 git diff commit1 commit2
 
-<<<<<<< Updated upstream
-=======
-If you can't commit and switch branch , changes come with you or git wont let you
-
 git stash // stash all uncommitted changes(staged or unstaged) 
 git stash pop // remove the stashed changes and re-apply them to your working copy
 git stash  apply // stashed changes and re-apply them to your working copy 
@@ -60,8 +56,4 @@ git restore --staged <filename> // to unstaged
 
 git reset <commit-hash> // to cut the commit not changes // you can put these  commits to another branch //
 
-test for unwanted commits 
-test for unwanted commits 2 
 
-
->>>>>>> Stashed changes
