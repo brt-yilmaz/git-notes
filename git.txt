@@ -52,7 +52,13 @@ git checkout HEAD~1 // to see previous commit, that cause to detached head
 git switch - // to go last step before detached head
 git checkout HEAD <filename> // to undo all changes since last commit in working directory // git checkout -- <filename> short way
 
-  
- 
+git restore <filename> // to restore to the contents in the HEAD // NOT undoable // same as git checkout HEAD <filename> 
+git restore --source HEAD~1 <filename> // for specific destination
+git restore --staged <filename> // to unstaged 
+
+git reset <commit-hash> // to cut the commit not changes // you can put these  commits to another branch //
+
+test for unwanted commits 
+test for unwanted commits 2 
 
 
