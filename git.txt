@@ -35,6 +35,8 @@ git diff --staged <filename> // to see changes for only specific file
 git diff branch1 branch2 
 git diff commit1 commit2
 
+<<<<<<< Updated upstream
+=======
 If you can't commit and switch branch , changes come with you or git wont let you
 
 git stash // stash all uncommitted changes(staged or unstaged) 
@@ -62,3 +64,4 @@ test for unwanted commits
 test for unwanted commits 2 
 
 
+>>>>>>> Stashed changes
