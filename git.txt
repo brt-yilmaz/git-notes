@@ -56,4 +56,4 @@ git restore --staged <filename> // to unstaged
 
 git reset <commit-hash> // to cut the commit not changes // you can put these  commits to another branch //
 
-
+test for git reset
