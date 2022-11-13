@@ -55,5 +55,13 @@ git restore --source HEAD~1 <filename> // for specific destination
 git restore --staged <filename> // to unstaged 
 
 git reset <commit-hash> // to cut the commit not changes // you can put these  commits to another branch //
+git reset --hard <commit> // to go specific branch and delete unstaged changes// unstaged commits will be lost
+git revert <commit> // creates a brand new commit which reverses the changes from a spesific commit
 
-test for git reset
+before git clone make sure your are not in a repo
+git remote -v // to see details of remote git
+git remote rename <old> <newname>
+git remote remove <name>
+  
+
+
