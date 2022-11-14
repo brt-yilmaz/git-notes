@@ -62,6 +62,14 @@ before git clone make sure your are not in a repo
 git remote -v // to see details of remote git
 git remote rename <old> <newname>
 git remote remove <name>
-  
 
+git branch -r // to check remote branches  
+git branch <remoteBranchName> // to work with another remote branch, git can track automatically
+
+git fetch <remoteName> // to fetch (only get data to local repository not working directory) to all braches
+git checkout origin/master to see last fetched data on brach
+git fetch <remoteName> <remoteBrachName> // to fetch specific branch 
+
+git pull = git fetch + git merge
+git pull <remoteName> <branchName>
 
