@@ -6,7 +6,7 @@
 
 > Commits can be written in vim or you can change default text editor for conflicts
 
-`git log --oneline` to see commits in one line
+`git log --oneLine` to see commits in one line
 
 `git commit --amend`  to modify last commit 
 
@@ -14,23 +14,23 @@
  
 `git commit -a -m "message"` to commit in a single line
 
-`git switch -c <branchname>` to create and switch branch
+`git switch -c <branchName>` to create and switch branch
 
 > before switching branch must be committed Otherwise, a file or folder that is not in any branch comes with it.
 
 `git branch -d` to delete you have to be out of the branch
 
-`git branch -m <newBranhcName>` you have to be in same branch
+`git branch -m <newBranchName>` you have to be in same branch
 
-`git merge <branchname>` head must be in the branch which you want to continue with it 
+`git merge <branchName>` head must be in the branch which you want to continue with it 
 
-`git diff` Compares staging area and working directory // a is the info that staging area last new about ,b is the working directory 
-`git diff HEAD` list all changes in the working tree since your last commit
-`git diff --staged` list changes  between staged and head // --cached is the same
-`git diff HEAD <filename>` to see changes for only specific file
-`git diff --staged <filename>`to see changes for only specific file
-`git diff branch1 branch2` 
-`git diff commit1 commit2`
+`git diff` Compares staging area and working directory // a is the info that staging area last new about ,b is the working directory  
+`git diff HEAD` list all changes in the working tree since your last commit  
+`git diff --staged` list changes  between staged and head // --cached is the same  
+`git diff HEAD <filename>` to see changes for only specific file  
+`git diff --staged <filename>`to see changes for only specific file  
+`git diff branch1 branch2`   
+`git diff commit1 commit2`  
 
 `git stash` stash all uncommitted changes(staged or unstaged) 
 `git stash pop` remove the stashed changes and re-apply them to your working copy
