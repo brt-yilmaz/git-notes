@@ -1,16 +1,16 @@
-Tue Nov  8 12:50:53 CET 2022
+## Git Notes
 
-> `git add .` // add to all changes in directory
+> `git add .` add to all changes in directory
 
-make a decision that git commits haven to be written in presens or past tense imperative
+> make a decision that git commits haven to be written in presens or past tense imperative
 
-Commits can be written in vim
+> Commits can be written in vim or you can change default text editor for conflicts
 
-git log --oneline // to see commits in one line
+`git log --oneline` to see commits in one line
 
-git commit --amend // to modify last commit 
+`git commit --amend`  to modify last commit 
 
-.gitignore // must be defined // for directory use slash at the end of the path
+> .gitignore must be defined // for directory use slash at the end of the path
  
 git commit -a -m "message" // to add in a single line
 
