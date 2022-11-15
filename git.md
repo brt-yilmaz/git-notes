@@ -44,7 +44,7 @@
 `git switch <branchname>` to reattached  
 `git checkout HEAD~1` to see previous commit, that cause to detached head  
 `git switch -` to go last step before detached head  
-`git checkout HEAD <filename>` to undo all changes since last commit in working directory > `git checkout -- <filename>` short way  
+`git checkout HEAD <filename>` to undo all changes since last commit in working directory  > `git checkout -- <filename>` short way  
 
 `git restore <filename>` to restore to the contents in the HEAD // NOT **undoable** // same as `git checkout HEAD <filename>`   
 `git restore --source HEAD~1 <filename>` for specific destination  
