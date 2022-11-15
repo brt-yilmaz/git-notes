@@ -73,7 +73,7 @@
 >> change current working directory
 >>> not recommended if you have uncommitted work
 
-`git pull <remoteName> <branchName>`
+`git pull <remoteName> <branchName>`  
 `git pull` // get automatically origin and current branch data 
 
 
