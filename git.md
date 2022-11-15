@@ -40,20 +40,19 @@
 `git stash drop stash@{2}` to drop  specific stash
 `git stash clear` to clear all stash 
 
-git checkout <commit-hash> // detached head // git switch <branchname> to reattached
-this command is useful if you want to make new branch in older commit
- 
-git checkout HEAD~1 // to see previous commit, that cause to detached head
-git switch - // to go last step before detached head
-git checkout HEAD <filename> // to undo all changes since last commit in working directory // git checkout -- <filename> short way
+`git checkout <commit-hash>` detached head > this command is useful if you want to make new branch in older commit    
+`git switch <branchname>` to reattached  
+`git checkout HEAD~1` to see previous commit, that cause to detached head  
+`git switch -` to go last step before detached head  
+`git checkout HEAD <filename>` to undo all changes since last commit in working directory > `git checkout -- <filename>` short way  
 
-git restore <filename> // to restore to the contents in the HEAD // NOT undoable // same as git checkout HEAD <filename> 
-git restore --source HEAD~1 <filename> // for specific destination
-git restore --staged <filename> // to unstaged 
+`git restore <filename>` to restore to the contents in the HEAD // NOT **undoable** // same as `git checkout HEAD <filename>`   
+`git restore --source HEAD~1 <filename>` for specific destination  
+`git restore --staged <filename>` to unstaged   
 
-git reset <commit-hash> // to cut the commit not changes // you can put these  commits to another branch //
-git reset --hard <commit> // to go specific branch and delete unstaged changes// unstaged commits will be lost
-git revert <commit> // creates a brand new commit which reverses the changes from a spesific commit
+`git reset <commit-hash>` to cut the commit not changes // you can put these  commits to another branch //  
+`git reset --hard <commit>` to go specific branch and delete unstaged changes// unstaged commits will be lost  
+`git revert <commit>` creates a brand new commit which reverses the changes from a spesific commit  
 
 before git clone make sure your are not in a repo
 git remote -v // to see details of remote git
