@@ -41,10 +41,11 @@
 `git stash clear` to clear all stash 
 
 `git checkout <commit-hash>` detached head > this command is useful if you want to make new branch in older commit    
-`git switch <branchname>` to reattached  
+`git switch <branchName>` to reattached  
 `git checkout HEAD~1` to see previous commit, that cause to detached head  
 `git switch -` to go last step before detached head  
-`git checkout HEAD <filename>` to undo all changes since last commit in working directory  <blockquote>`git checkout -- <filename>` short way</blockquote>
+`git checkout HEAD <filename>` to undo all changes since last commit in working directory  
+> `git checkout -- <filename>` short way
   
 
 `git restore <filename>` to restore to the contents in the HEAD // NOT **undoable** // same as `git checkout HEAD <filename>`   
@@ -53,23 +54,27 @@
 
 `git reset <commit-hash>` to cut the commit not changes // you can put these  commits to another branch //  
 `git reset --hard <commit>` to go specific branch and delete unstaged changes// unstaged commits will be lost  
-`git revert <commit>` creates a brand new commit which reverses the changes from a spesific commit  
+`git revert <commit>` creates a brand new commit which reverses the changes from a specific commit  
 
-before git clone make sure your are not in a repo
-git remote -v // to see details of remote git
-git remote rename <old> <newname>
-git remote remove <name>
+> Before git clone make sure your are not in a repo
 
-git branch -r // to check remote branches  
-git branch <remoteBranchName> // to work with another remote branch, git can track automatically
+`git remote -v` to see details of remote git
+`git remote rename <old> <newName>`
+`git remote remove <name>`
+`
+`git branch -r` to check remote branches  
+`git branch <remoteBranchName>` to work with another remote branch, git can track automatically
+`
+`git fetch <remoteName>` to fetch (only get data to local repository not working directory) to all branches
+`git checkout origin/master` to see last fetched data on brach
+`git fetch <remoteName> <remoteBrachName>` to fetch specific branch 
+`
+> git pull = git fetch + git merge 
+>> change current working directory
+>>> not recommended if you have uncommitted work
 
-git fetch <remoteName> // to fetch (only get data to local repository not working directory) to all braches
-git checkout origin/master to see last fetched data on brach
-git fetch <remoteName> <remoteBrachName> // to fetch specific branch 
-
-git pull = git fetch + git merge // change current working directory // not recommended if you have uncommitted work
-git pull <remoteName> <branchName>
-git pull // get automaticly origin and current branch data 
+`git pull <remoteName> <branchName>`
+`git pull` // get automatically origin and current branch data 
 
 
 
