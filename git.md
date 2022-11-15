@@ -30,7 +30,7 @@
 `git diff HEAD <filename>` to see changes for only specific file
 `git diff --staged <filename>`to see changes for only specific file
 `git diff branch1 branch2` 
-`git diff commit1 commit2
+`git diff commit1 commit2`
 
 `git stash` stash all uncommitted changes(staged or unstaged) 
 `git stash pop` remove the stashed changes and re-apply them to your working copy
