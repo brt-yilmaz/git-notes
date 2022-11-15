@@ -4,7 +4,7 @@
 
 > make a decision that git commits haven to be written in present or past tense imperative
 
-> Commits can be written in vim or you can change default text editor for conflicts
+> Commits can be written in vim or you can change default text editor
 
 `git log --oneLine` to see commits in one line
 
@@ -12,11 +12,11 @@
 
 > .gitignore must be defined // for directory use slash at the end of the path
  
-`git commit -a -m "message"` to commit in a single line
+`git commit -am "message"` to commit in a single line
 
 `git switch -c <branchName>` to create and switch branch
 
-> before switching branch must be committed Otherwise, a file or folder that is not in any branch comes with it.
+> before switching branch must be committed Otherwise, a file or folder that is not in any branch comes with you
 
 `git branch -d` to delete you have to be out of the branch
 
