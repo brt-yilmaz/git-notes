@@ -70,6 +70,9 @@ git fetch <remoteName> // to fetch (only get data to local repository not workin
 git checkout origin/master to see last fetched data on brach
 git fetch <remoteName> <remoteBrachName> // to fetch specific branch 
 
-git pull = git fetch + git merge
+git pull = git fetch + git merge // change current working directory // not recommended if you have uncommitted work
 git pull <remoteName> <branchName>
+git pull // get automaticly origin and current branch data 
+
+
 
