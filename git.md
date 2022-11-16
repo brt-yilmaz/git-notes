@@ -47,7 +47,6 @@
 `git checkout HEAD <filename>` to undo all changes since last commit in working directory  
 > `git checkout -- <filename>` short way
   
-
 `git restore <filename>` to restore to the contents in the HEAD // NOT **undoable** // same as `git checkout HEAD <filename>`   
 `git restore --source HEAD~1 <filename>` for specific destination  
 `git restore --staged <filename>` to unstaged   
