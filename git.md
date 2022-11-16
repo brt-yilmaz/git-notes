@@ -16,7 +16,7 @@
 
 `git switch -c <branchName>` to create and switch branch
 
-> before switching branch must be committed Otherwise, a file or folder that is not in any branch comes with you
+> before switching branch must be committed Otherwise, a file or folder that is not in any branch comes with it.
 
 `git branch -d` to delete you have to be out of the branch
 
@@ -26,7 +26,7 @@
 
 `git diff` Compares staging area and working directory // a is the info that staging area last new about ,b is the working directory  
 `git diff HEAD` list all changes in the working tree since your last commit  
-`git diff --staged` list changes  between staged and head // --cached is the same  
+`git diff --staged` list changes  between stagced and head // --cached is the same  
 `git diff HEAD <filename>` to see changes for only specific file  
 `git diff --staged <filename>`to see changes for only specific file  
 `git diff branch1 branch2`   
@@ -74,8 +74,5 @@
 
 `git pull <remoteName> <branchName>`  
 `git pull` // get automatically origin and current branch data 
-
-
-
 
 
