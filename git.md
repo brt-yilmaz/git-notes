@@ -80,7 +80,8 @@
 `git rebase master` to see commit ordered by name     
 `git rebase --continue` to continue rebasing after solve the conflict  
 `git rebase -i HEAD~8` to make changes for commits *all commits are new, commits hash change too*  
-`reword` to rename commit *content stays*  
-`pick` to keep commit *content stays*   
-`fixup`discard commit and meld into previous commit *content stays*  
-`drop`to delete commit *content lost*  
+`reword` to rename commit ***content stays*** 
+`pick` to keep commit ***content stays***  
+`fixup`discard commit and meld into previous commit ***content stays***  
+`drop`to delete commit ***content lost*** 
+
