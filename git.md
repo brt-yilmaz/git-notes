@@ -66,7 +66,7 @@
 `
 `git fetch <remoteName>` to fetch (only get data to local repository not working directory) to all branches
 `git checkout origin/master` to see last fetched data on brach
-`git fetch <remoteName> <remoteBrachName>` to fetch specific branch 
+`git fetch <remoteName> <remoteBranchName>` to fetch specific branch 
 `
 > git pull = git fetch + git merge 
 >> change current working directory
@@ -84,4 +84,19 @@
 `pick` to keep commit ***content stays***  
 `fixup`discard commit and meld into previous commit ***content stays***  
 `drop`to delete commit ***content lost*** 
+
+`git tag`to see important events   
+`git tag -l "*beta*"` can be used with wildcards   
+`git checkout <tagName>` to see specific tag    
+`git diff <tag1Name> <tag2Name>` to see difference between to tags.  
+`git tag <tagName>` to create lightweight tags.  
+`git tag -a <tagName>` to create annotated tags.  
+`git show <tagName>`to see more details.    
+`git tag <tagName> <commitHash>`to create tag on previous commit.  
+`git tag <tagName> <commitHash> -f `to update existence tags with a new commit  
+`git tag <tagName> -d` to delete tag.  
+> Tags are not included automatically 
+`git push --tags` to push all tags in one command.  
+`git push origin <tagName>` to push single tag.  
+
 
