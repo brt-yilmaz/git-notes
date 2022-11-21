@@ -99,4 +99,16 @@
 `git push --tags` to push all tags in one command.  
 `git push origin <tagName>` to push single tag.  
 
+`git hash-object --stdin`to take a hash key for a data  
+`git hash-object --stdin -w` to store data als an object  
+`git cat-file -p <hashNumber>` to read stored data 
+
+> reflog are stored only in local for 90 days  
+`git reflog show HEAD` to see HEAD history.  
+`git reflog show <branchName>` to see specific branch head history  
+
+`git diff master master@{2.days.ago}` to see differences between different times.  
+`git checkout master@{2.weeks.ago}` to go two weeks ago on master branch.  
+`git reset --hard master@{<specificEvent>}` to rescue specific Event/Commit.  
+
 
