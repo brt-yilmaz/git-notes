@@ -96,6 +96,7 @@
 `git tag <tagName> <commitHash> -f `to update existence tags with a new commit  
 `git tag <tagName> -d` to delete tag.  
 > Tags are not included automatically 
+
 `git push --tags` to push all tags in one command.  
 `git push origin <tagName>` to push single tag.  
 
@@ -103,7 +104,8 @@
 `git hash-object --stdin -w` to store data als an object  
 `git cat-file -p <hashNumber>` to read stored data 
 
-> reflog are stored only in local for 90 days    
+> reflog are stored only in local for 90 days 
+
 `git reflog show HEAD` to see HEAD history.  
 `git reflog show <branchName>` to see specific branch head history  
 
