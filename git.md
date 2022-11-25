@@ -113,4 +113,5 @@
 `git checkout master@{2.weeks.ago}` to go two weeks ago on master branch.  
 `git reset --hard master@{<specificEvent>}` to rescue specific Event/Commit.  
 
+hub test
 
