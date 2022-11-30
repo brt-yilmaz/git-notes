@@ -113,5 +113,34 @@
 `git checkout master@{2.weeks.ago}` to go two weeks ago on master branch.  
 `git reset --hard master@{<specificEvent>}` to rescue specific Event/Commit.  
 
-hub test
+Linux Bash Terminal Keyboard Shortcuts
 
+Ctrl + A	: Move to the start of the command line  
+
+Ctrl + E	: Move to the end of the command line.  
+
+Ctrl + L	: Similar to clear command, clears the terminal screen.  
+
+Ctrl + C	: Sends SIGI signal and kills currently executing command
+
+Ctrl + R	: Incremental reverse search of bash history
+
+Ctrl + J	: Ends history search at current command
+
+Ctrl + G	: Exits history search mode
+
+!!	: Runs last command
+
+Ctrl + U	: Deletes before the cursor until the start of the command
+
+Ctrl + K	: Deletes after the cursor until the end of the command
+
+Ctrl + W	: Removes the command/argument/word before the cursor
+
+Ctrl + D	: Removes the character under the cursor
+
+Ctrl + H	: Removes character before the cursor
+
+~TAB TAB	: List all Linux users
+
+Esc + D or Alt + D : Delete the word on the right. 
