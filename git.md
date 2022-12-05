@@ -112,4 +112,6 @@
 `git diff master master@{2.days.ago}` to see differences between different times.  
 `git checkout master@{2.weeks.ago}` to go two weeks ago on master branch.  
 `git reset --hard master@{<specificEvent>}` to rescue specific Event/Commit.  
+ 
+ `git push origin -d branch-name` to delete branch on Github.
 
