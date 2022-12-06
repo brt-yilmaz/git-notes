@@ -107,6 +107,7 @@
 
 `git reflog show HEAD` to see HEAD history.  
 `git reflog show <branchName>` to see specific branch head history  
+`git reflog --no-abbrev` to see all HEAD history include deleted branch.
 
 `git diff master master@{2.days.ago}` to see differences between different times.  
 `git checkout master@{2.weeks.ago}` to go two weeks ago on master branch.  
