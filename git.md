@@ -60,17 +60,16 @@
 `git remote -v` to see details of remote git  
 `git remote rename <old> <newName>`  
 `git remote remove <name>`  
-`
+
 `git branch -r` to check remote branches  
-`git branch <remoteBranchName>` to work with another remote branch, git can track automatically
-`
-`git fetch <remoteName>` to fetch (only get data to local repository not working directory) to all branches
-`git checkout origin/master` to see last fetched data on brach
-`git fetch <remoteName> <remoteBranchName>` to fetch specific branch 
-`
-> git pull = git fetch + git merge 
->> change current working directory
->>> not recommended if you have uncommitted work
+`git branch <remoteBranchName>` to work with another remote branch, git can track automatically   
+`git fetch <remoteName>` to fetch (only get data to local repository not working directory) to all branches  
+`git checkout origin/master` to see last fetched data on brach  
+`git fetch <remoteName> <remoteBranchName>` to fetch specific branch  
+ 
+> git pull = git fetch + git merge  
+>> change current working directory  
+>>> not recommended if you have uncommitted work  
 
 `git pull <remoteName> <branchName>`  
 `git pull` get automatically origin and current branch data 
@@ -80,9 +79,9 @@
 `git rebase master` to see commit ordered by name     
 `git rebase --continue` to continue rebasing after solve the conflict  
 `git rebase -i HEAD~8` to make changes for commits *all commits are new, commits hash change too*  
-`reword` to rename commit ***content stays*** 
+`reword` to rename commit ***content stays***  
 `pick` to keep commit ***content stays***  
-`fixup`discard commit and meld into previous commit ***content stays***  
+`fixup` discard commit and meld into previous commit ***content stays***  
 `drop`to delete commit ***content lost*** 
 
 `git tag`to see important events   
