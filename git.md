@@ -10,19 +10,19 @@
 
 `git commit --amend`  to modify last commit 
 
-> .gitignore must be defined // for directory use slash at the end of the path
+> .gitignore must be defined // for directory use slash at the end of the path  
  
-`git commit -am "message"` to commit in a single line
+`git commit -am "message"` to commit in a single line  
 
-`git switch -c <branchName>` to create and switch branch
+`git switch -c <branchName>` to create and switch branch  
 
-> before switching branch must be committed Otherwise, a file or folder that is not in any branch comes with it.
+> before switching branch must be committed Otherwise, a file or folder that is not in any branch comes with it.  
 
-`git branch -d` to delete you have to be out of the branch
+`git branch -d` to delete you have to be out of the branch  
 
-`git branch -m <newBranchName>` you have to be in same branch
+`git branch -m <newBranchName>` you have to be in same branch  
 
-`git merge <branchName>` head must be in the branch which you want to continue with it 
+`git merge <branchName>` head must be in the branch which you want to continue with it  
 
 `git diff` Compares staging area and working directory // a is the info that staging area last new about ,b is the working directory  
 `git diff HEAD` list all changes in the working tree since your last commit  
@@ -32,13 +32,13 @@
 `git diff branch1 branch2`   
 `git diff commit1 commit2`  
 
-`git stash` stash all uncommitted changes(staged or unstaged) 
-`git stash pop` remove the stashed changes and re-apply them to your working copy
-`git stash apply` stashed changes and re-apply them to your working copy 
-`git stash list` to see multiple stash
-`git stash apply stash@{2}` to apply specific stash
-`git stash drop stash@{2}` to drop  specific stash
-`git stash clear` to clear all stash 
+`git stash` stash all uncommitted changes(staged or unstaged)  
+`git stash pop` remove the stashed changes and re-apply them to your working copy  
+`git stash apply` stashed changes and re-apply them to your working copy  
+`git stash list` to see multiple stash  
+`git stash apply stash@{2}` to apply specific stash  
+`git stash drop stash@{2}` to drop  specific stash  
+`git stash clear` to clear all stash  
 
 `git checkout <commit-hash>` detached head > this command is useful if you want to make new branch in older commit    
 `git switch <branchName>` to reattached  
@@ -57,9 +57,9 @@
 
 > Before git clone make sure your are not in a repo
 
-`git remote -v` to see details of remote git
-`git remote rename <old> <newName>`
-`git remote remove <name>`
+`git remote -v` to see details of remote git  
+`git remote rename <old> <newName>`  
+`git remote remove <name>`  
 `
 `git branch -r` to check remote branches  
 `git branch <remoteBranchName>` to work with another remote branch, git can track automatically
