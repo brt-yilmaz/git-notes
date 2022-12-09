@@ -118,4 +118,13 @@
 `git rm --cached <file>` to force Git to completely forget the file.  
 `git rm -r --cached <folder>`  to force Git to completely forget the folder.  
 
+To change master to main remote and local
+```bash
+git branch -m main
+git fetch origin
+git branch -u origin/main main
+git remote set-head origin -a
+```
+
+
 
